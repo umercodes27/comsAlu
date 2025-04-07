@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #f5f9f6;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  height: 90vh;
+}
+
+.menuBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-weight: bold;
+}
+
+.menuItem {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.mentorsBox {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+}
+
+.mentor {
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+/* Middle Content */
+.middleContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Share Box */
+.shareBox {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.iconButtons button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.input {
+  flex: 1;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+/* Post */
+.post {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Profile Card */
+.profileCard {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  font-size: 0.85rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.profileCard h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.profileCard button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #009966;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #009966;
+}

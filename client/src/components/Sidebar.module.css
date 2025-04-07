@@ -1,0 +1,36 @@
+.sidebar {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  height: 90vh;
+}
+
+.menuBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-weight: bold;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.mentorsBox {
+  margin-top: 2rem;
+}
+
+.mentor {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}

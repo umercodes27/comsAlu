@@ -1,0 +1,29 @@
+.profileCard {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    font-size: 0.85rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .profileCard h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .profileCard button {
+    margin-top: 0.5rem;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #009966;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #009966;
+  }
+  
